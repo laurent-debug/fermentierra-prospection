@@ -1,7 +1,6 @@
 // Smooth scrolling for navigation links
 const navLinks = document.querySelectorAll('.nav-link');
 const sections = document.querySelectorAll('.section, .hero');
-const heroSection = document.querySelector('.hero');
 
 navLinks.forEach(link => {
   link.addEventListener('click', (e) => {
@@ -59,11 +58,6 @@ window.addEventListener('scroll', () => {
       link.classList.add('active');
     }
   });
-
-  // Keep the hero section fixed in place to avoid parallax overlap effects
-  if (heroSection) {
-    heroSection.style.transform = 'translateY(0)';
-  }
 
   lastScrollTop = scrollTop;
 });
