@@ -1020,7 +1020,7 @@ body {
   padding: var(--space-32) var(--space-24);
   background: linear-gradient(135deg, rgba(152, 195, 121, 0.1) 0%, rgba(245, 235, 220, 1) 100%);
   margin-top: 70px;
-  margin-bottom: 24px;
+  margin-bottom: var(--space-24);
 }
 
 .hero-content {
@@ -1079,7 +1079,7 @@ body {
   padding-top: var(--space-16);
   padding-bottom: var(--space-16);
   border-top: 1px solid var(--color-card-border);
-  margin-bottom: calc(var(--space-32) * 1.5);
+  margin-bottom: var(--space-24);
 }
 
 .stat {
