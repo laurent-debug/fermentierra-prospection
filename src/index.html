@@ -1,12 +1,376 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fermentierra – Prospection (test)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fermentierra - Richesse des saveurs fermentées &amp; bienfaits nutritionnels</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: sans-serif; padding: 24px">
-  <h1>Fermentierra – Prospection</h1>
-  <p>Ceci est une page de test. Le déploiement GitHub Pages fonctionne 🎉</p>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🌱</span>
+                <span class="logo-text">Fermentierra</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#advantages" class="nav-link">Avantages</a></li>
+                <li><a href="#products" class="nav-link">Nos gammes</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <span class="hero-icon">🌱</span>
+                <h1 class="hero-title">Fermentierra</h1>
+            </div>
+            <p class="hero-tagline">Richesse des saveurs fermentées &amp; bienfaits nutritionnels</p>
+            <p class="hero-subtitle">Lactofermentation artisanale 100% bio pour la restauration suisse</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn--primary btn--lg">Découvrir nos produits</a>
+                <a href="#contact" class="btn btn--outline btn--lg">Dégustation gratuite</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Années d'expertise</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Bio certifié</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">🇨🇭</div>
+                    <div class="stat-label">Fait en Suisse</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de Fermentierra</h2>
+                <p class="section-subtitle">L'artisanat de la fermentation au service de la gastronomie</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1757668583/pplx_project_search_images/f77b2d64b483f9daddd78469fb4c136a89070a0e.png" alt="Fermentation artisanale" class="img-rounded">
+                </div>
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>Basés à <strong>Champagne, Suisse</strong>, nous cultivons depuis plus de 5 ans l'art ancestral de la lactofermentation pour créer des produits uniques destinés à la restauration.</p>
+                        <p>Notre mission : offrir aux chefs et restaurateurs des produits fermentés d'exception qui subliment leurs créations tout en apportant des bienfaits nutritionnels incomparables.</p>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <span class="value-icon">✓</span>
+                            <span class="value-text">100% bio certifié</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">✓</span>
+                            <span class="value-text">Non pasteurisé</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">✓</span>
+                            <span class="value-text">Sans conservateurs ni additifs</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">✓</span>
+                            <span class="value-text">Traçabilité irréprochable</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">✓</span>
+                            <span class="value-text">Savoir-faire artisanal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="section section--alt" id="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pourquoi choisir Fermentierra ?</h2>
+                <p class="section-subtitle">Triple avantage pour votre établissement</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">🍽️</div>
+                    <h3 class="advantage-title">Avantages culinaires</h3>
+                    <ul class="advantage-list">
+                        <li>Exhausteur de goût naturel</li>
+                        <li>Amplifie la sensation d'umami</li>
+                        <li>Apporte croquant et couleur</li>
+                        <li>Touche acidulée équilibrante</li>
+                        <li>Intégration facile dans tous types de plats</li>
+                    </ul>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">💚</div>
+                    <h3 class="advantage-title">Bienfaits santé</h3>
+                    <ul class="advantage-list">
+                        <li>Probiotiques naturels</li>
+                        <li>Renforce la flore intestinale</li>
+                        <li>Vitamines et antioxydants créés par fermentation</li>
+                        <li>Facile à digérer</li>
+                        <li>Peu sucré et peu calorique</li>
+                    </ul>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">📈</div>
+                    <h3 class="advantage-title">Atouts marché</h3>
+                    <ul class="advantage-list">
+                        <li>Tendance forte depuis 2020</li>
+                        <li>Demande croissante pour l'alimentation saine</li>
+                        <li>Différenciation concurrentielle</li>
+                        <li>Storytelling authentique</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos gammes de produits</h2>
+                <p class="section-subtitle">Des solutions adaptées à chaque type d'établissement</p>
+            </div>
+            <div class="products-grid">
+                <!-- Entry Level -->
+                <div class="product-card">
+                    <div class="product-badge">Entrée de gamme</div>
+                    <h3 class="product-name">Pour self-service &amp; cantines</h3>
+                    <p class="product-target">Self-service, cantines, bars à salades</p>
+                    <div class="product-image-container">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754819690/pplx_project_search_images/4c7a2278068634742c8525e27a3dd51db8b32661.png" alt="Produits entrée de gamme" class="product-image">
+                    </div>
+                    <div class="product-details">
+                        <h4>Produits phares :</h4>
+                        <ul>
+                            <li>Carottes lacto-coriandre</li>
+                            <li>Chou doux</li>
+                            <li>Kimchi léger</li>
+                        </ul>
+                        <p class="product-packaging"><strong>Conditionnement :</strong> 2-5 kg</p>
+                        <div class="product-benefit">
+                            <span class="benefit-icon">✨</span>
+                            <span>Garniture saine et locale, prête à l'emploi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mid Range -->
+                <div class="product-card product-card--featured">
+                    <div class="product-badge product-badge--featured">Milieu de gamme</div>
+                    <h3 class="product-name">Pour bistros &amp; brasseries</h3>
+                    <p class="product-target">Bistros, brasseries, hôtels 3-4★</p>
+                    <div class="product-image-container">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1757668583/pplx_project_search_images/f77b2d64b483f9daddd78469fb4c136a89070a0e.png" alt="Produits milieu de gamme" class="product-image">
+                    </div>
+                    <div class="product-details">
+                        <h4>Produits phares :</h4>
+                        <ul>
+                            <li>Betteraves-gingembre</li>
+                            <li>Pickles variés</li>
+                            <li>Swisschi</li>
+                        </ul>
+                        <p class="product-service"><strong>Service :</strong> Abonnement mensuel avec nouveautés</p>
+                        <div class="product-benefit">
+                            <span class="benefit-icon">✨</span>
+                            <span>Diversification originale sans effort</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium -->
+                <div class="product-card">
+                    <div class="product-badge">Premium</div>
+                    <h3 class="product-name">Pour gastronomie</h3>
+                    <p class="product-target">Restaurants gastronomiques, hôtels de standing</p>
+                    <div class="product-image-container">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754819690/pplx_project_search_images/4c7a2278068634742c8525e27a3dd51db8b32661.png" alt="Produits premium" class="product-image">
+                    </div>
+                    <div class="product-details">
+                        <h4>Produits phares :</h4>
+                        <ul>
+                            <li>Fermentations longues et complexes</li>
+                            <li>Mélanges sophistiqués</li>
+                            <li>Éditions limitées</li>
+                        </ul>
+                        <p class="product-service"><strong>Service :</strong> Co-développement de recettes exclusives</p>
+                        <div class="product-benefit">
+                            <span class="benefit-icon">✨</span>
+                            <span>Fermentierra comme laboratoire R&amp;D externalisé</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section section--alt" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos services</h2>
+                <p class="section-subtitle">Un accompagnement sur mesure pour votre réussite</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3 class="service-title">Co-création</h3>
+                    <ul class="service-list">
+                        <li>Co-création de recettes signature</li>
+                        <li>Condiments, boissons, sauces</li>
+                        <li>Charcuteries végétales, miso, koji</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍🍳</div>
+                    <h3 class="service-title">Formation</h3>
+                    <ul class="service-list">
+                        <li>Ateliers de formation pour les brigades</li>
+                        <li>Accompagnement en fermentation</li>
+                        <li>Conseil et R&amp;D culinaire</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3 class="service-title">Abonnements</h3>
+                    <ul class="service-list">
+                        <li>Abonnements mensuels avec nouveautés saisonnières</li>
+                        <li>Transformation sur-mesure de matières premières locales</li>
+                        <li>Retour d'expérience personnalisé</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="products-showcase">
+                <h3 class="showcase-title">Exemples de nos créations</h3>
+                <div class="showcase-tags">
+                    <span class="tag">Choucroute revisitée</span>
+                    <span class="tag">Kimchi local</span>
+                    <span class="tag">Pickles de saison</span>
+                    <span class="tag">Condiments acidulés</span>
+                    <span class="tag">Sauces fermentées</span>
+                    <span class="tag">Boissons probiotiques</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section--contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">Organisez une dégustation gratuite</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:contact@fermentierra.com">contact@fermentierra.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div>
+                            <h4>Site web</h4>
+                            <a href="https://fermentierra.com" target="_blank">fermentierra.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Champagne, Suisse</p>
+                        </div>
+                    </div>
+                    <div class="contact-cta">
+                        <p class="cta-text">"La fermentation est une conversation entre l'homme et la nature"</p>
+                        <p class="cta-highlight">Contactez-nous pour un essai en conditions réelles</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Nom complet *</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="establishment">Établissement</label>
+                            <input type="text" id="establishment" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email *</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Téléphone</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="interest">Je suis intéressé par :</label>
+                            <select id="interest" class="form-control">
+                                <option value="">Sélectionnez une option</option>
+                                <option value="entry">Entrée de gamme</option>
+                                <option value="mid">Milieu de gamme</option>
+                                <option value="premium">Premium</option>
+                                <option value="all">Toutes les gammes</option>
+                                <option value="tasting">Dégustation gratuite</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Envoyer ma demande</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✓</div>
+                        <h3>Merci pour votre demande !</h3>
+                        <p>Nous vous contacterons dans les plus brefs délais pour organiser votre dégustation gratuite.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🌱</span>
+                    <span class="logo-text">Fermentierra</span>
+                </div>
+                <p class="footer-text">Lactofermentation artisanale 100% bio - Champagne, Suisse</p>
+                <p class="footer-copyright">© 2025 Fermentierra. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
