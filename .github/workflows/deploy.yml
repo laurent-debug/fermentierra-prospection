@@ -20,11 +20,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # ⚠️ On publie le dossier "src" tel quel (il doit contenir index.html)
-      - name: Upload Pages artifact
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact (src)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: src
+          path: ./src
 
   deploy:
     needs: build
@@ -36,3 +38,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
