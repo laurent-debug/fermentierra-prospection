@@ -12,7 +12,7 @@ fermentierra-prospection/
 ├── src/
 │ ├── app.js # Logique front-end (animations, interactions)
 │ ├── index.html # Structure principale du site
-│ └── styles.css # Feuille de style principale
+│ └── style.css # Feuille de style principale
 ├── public/ # Dossier public (images, assets)
 ├── .env.example # Variables d'environnement d'exemple
 ├── .gitignore # Fichiers/dossiers à ignorer
