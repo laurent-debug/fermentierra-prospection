@@ -58,7 +58,7 @@ window.addEventListener('scroll', () => {
       link.classList.add('active');
     }
   });
-
+  
   lastScrollTop = scrollTop;
 });
 
@@ -176,4 +176,12 @@ window.addEventListener('load', () => {
   }
 });
 
-
+// Add parallax effect to hero section
+window.addEventListener('scroll', () => {
+  const hero = document.querySelector('.hero');
+  if (hero) {
+    const scrolled = window.pageYOffset;
+    const parallax = scrolled * 0.5;
+    hero.style.transform = `translateY(${parallax}px)`;
+  }
+});
