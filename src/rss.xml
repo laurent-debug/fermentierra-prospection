@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fermentierra Blog</title>
+    <link>https://fermentierra.example.com/</link>
+    <description>Guides fermentation, innovation et santé pour les professionnels.</description>
+    <language>fr-CH</language>
+    <item>
+      <title>Maîtriser la lactofermentation en service</title>
+      <link>https://medium.com/</link>
+      <guid>https://medium.com/maitriser-lactofermentation</guid>
+      <pubDate>Wed, 12 Feb 2025 09:00:00 +0100</pubDate>
+      <description>Procédés, températures et gestion des pH pour un passe en cuisine sans stress.</description>
+    </item>
+    <item>
+      <title>Ferments et santé digestive de vos clients</title>
+      <link>https://medium.com/</link>
+      <guid>https://medium.com/ferments-et-sante</guid>
+      <pubDate>Tue, 28 Jan 2025 08:00:00 +0100</pubDate>
+      <description>Comment communiquer sur les probiotiques sans allégations hasardeuses.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "slug": "maitriser-lactofermentation",
+      "title": "Maîtriser la lactofermentation en service",
+      "category": "fermentation",
+      "date": "12 février 2025",
+      "excerpt": "Procédés, températures et gestion des pH pour un passe en cuisine sans stress.",
+      "image": "https://via.placeholder.com/600x400?text=Lactofermentation",
+      "url": "https://medium.com/"
+    },
+    {
+      "slug": "ferments-et-sante",
+      "title": "Ferments et santé digestive de vos clients",
+      "category": "santé",
+      "date": "28 janvier 2025",
+      "excerpt": "Comment communiquer sur les probiotiques sans tomber dans les allégations santé hasardeuses.",
+      "image": "https://via.placeholder.com/600x400?text=Ferments+%26+Sante",
+      "url": "https://medium.com/"
+    },
+    {
+      "slug": "co-creation-chefs",
+      "title": "Co-créer un condiment signature avec Fermentierra",
+      "category": "innovation",
+      "date": "7 janvier 2025",
+      "excerpt": "Retour d'expérience sur trois collaborations suisses qui font vibrer les cartes.",
+      "image": "https://via.placeholder.com/600x400?text=Co-creation",
+      "url": "https://medium.com/"
+    }
+  ]
+}

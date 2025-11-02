@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Prodotti",
+    "caseStudies": "Case study",
+    "blog": "Blog e guide",
+    "training": "Formazioni",
+    "contact": "Contatto"
+  },
+  "language": {
+    "current": "IT"
+  },
+  "hero": {
+    "badge": "Fermenti vivi per cucine esigenti",
+    "title": "Fermenti svizzeri per elevare i tuoi menù",
+    "subtitle": "Linee lattiche, kombucha e condimenti signature pronti per il servizio.",
+    "ctaPrimary": "Scopri le gamme",
+    "ctaSecondary": "Organizza una degustazione",
+    "statExperience": "anni di innovazione fermentativa",
+    "statChefs": "chef e hotel accompagnati",
+    "statSwiss": "Produzione locale certificata bio",
+    "highlightsTitle": "Cosa portiamo alla tua brigata",
+    "point1": "Fermenti pronti all'uso, testati in servizio",
+    "point2": "Supporto R&D per creare la tua firma",
+    "point3": "Formazioni per cucina e bar di fermentati"
+  },
+  "about": {
+    "kicker": "Savoir-faire svizzero",
+    "title": "Un atelier dedicato ai professionisti",
+    "body1": "Il nostro laboratorio di Champagne (VD) sviluppa fermenti tarati sul ritmo del servizio: pH controllati, shelf life validate e schede tecniche complete.",
+    "body2": "Privilegiamo filiere corte con produttori bio svizzeri e garantiamo la tracciabilità lotto per lotto.",
+    "value1": "Senza pastorizzazione",
+    "value2": "Ricette esclusive",
+    "value3": "Analisi microbiologiche",
+    "value4": "Logistica refrigerata"
+  },
+  "advantages": {
+    "title": "Soluzioni per ogni momento del servizio",
+    "subtitle": "Condimenti, bevande vive, guarnizioni croccanti e coaching.",
+    "card1": {
+      "title": "Condimenti e basi umami",
+      "body": "Miso, garum vegetale e salse fermentate per dare profondità."
+    },
+    "card2": {
+      "title": "Bevande probiotiche",
+      "body": "Kombucha, kefir e soda fermentata per pairing o mixology."
+    },
+    "card3": {
+      "title": "Servizi su misura",
+      "body": "Co-creazione, abbonamenti stagionali e supporto HACCP per i tuoi fermenti."
+    }
+  },
+  "case": {
+    "problem": "Problema",
+    "solution": "Soluzione",
+    "results": "Risultati",
+    "carouselTitle": "I nostri fermenti esaltano l'esperienza dei tuoi ospiti",
+    "carouselSubtitle": "Scopri tutte le storie di successo",
+    "carouselCta": "Vai alle case study"
+  },
+  "products": {
+    "view": "Vedi scheda",
+    "added": "Prodotto aggiunto alla selezione",
+    "previewTitle": "I nostri prodotti di punta",
+    "previewSubtitle": "L'intero catalogo è disponibile nella pagina prodotti.",
+    "previewCta": "Esplora i prodotti"
+  },
+  "product": {
+    "ingredients": "Ingredienti principali",
+    "process": "Processo di fermentazione",
+    "packaging": "Confezioni disponibili",
+    "pairings": "Abbinamenti culinari",
+    "addToCart": "Aggiungi al carrello",
+    "requestQuote": "Richiedi preventivo"
+  },
+  "blog": {
+    "readMore": "Leggi l'articolo",
+    "previewTitle": "Guide e risorse per il tuo team",
+    "previewBody": "Checklist HACCP, idee di pairing e testimonianze di locali che innovano.",
+    "previewCta": "Vai al blog"
+  },
+  "training": {
+    "register": "Iscriviti"
+  },
+  "footer": {
+    "tagline": "Fermentazione artigianale 100% bio - Champagne, Svizzera.",
+    "contact": "Contatto",
+    "resources": "Risorse",
+    "blog": "Blog e guide",
+    "catalogue": "Catalogo prodotti",
+    "rss": "Feed RSS"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Organizza una degustazione gratuita o pianifica una chiamata.",
+    "nameLabel": "Nome completo *",
+    "establishmentLabel": "Struttura",
+    "emailLabel": "Email professionale *",
+    "phoneLabel": "Telefono",
+    "interestLabel": "Sono interessato a",
+    "messageLabel": "Messaggio",
+    "messageHelp": "Condividi esigenze, orari o restrizioni alimentari.",
+    "interestHelp": "Il tuo messaggio sarà inoltrato al team corretto.",
+    "submit": "Invia la richiesta",
+    "calendar": "Pianifica con Calendly",
+    "confirmation": "Riceverai un'email di conferma automatica.",
+    "successTitle": "Grazie per la fiducia!",
+    "successBody": "Ti contatteremo entro 24 ore per organizzare degustazione o chiamata.",
+    "directLine": "Hai bisogno di una risposta immediata?",
+    "nameError": "Indica il tuo nome.",
+    "emailError": "Inserisci un'email valida.",
+    "interest": {
+      "tasting": "Degustazione gratuita",
+      "subscription": "Abbonamento",
+      "cocreation": "Co-creazione",
+      "training": "Formazione",
+      "quote": "Preventivo"
+    }
+  },
+  "callback": {
+    "label": "Richiedi richiamo",
+    "title": "Pianifica un richiamo",
+    "subtitle": "Ti chiamiamo entro un'ora lavorativa.",
+    "name": "Nome",
+    "phone": "Telefono",
+    "time": "Fascia oraria desiderata",
+    "submit": "Richiedi richiamo",
+    "confirmation": "Grazie! Ti contatteremo al più presto.",
+    "nameError": "Indica il tuo nome.",
+    "phoneError": "Serve il numero per richiamarti."
+  }
+}

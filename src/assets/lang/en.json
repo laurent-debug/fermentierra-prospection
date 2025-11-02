@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "caseStudies": "Case studies",
+    "blog": "Blog & Guides",
+    "training": "Training",
+    "contact": "Contact"
+  },
+  "language": {
+    "current": "EN"
+  },
+  "hero": {
+    "badge": "Living ferments for demanding kitchens",
+    "title": "Swiss ferments to elevate your menus",
+    "subtitle": "Ready-to-serve lacto-ferments, kombucha beverages and signature condiments.",
+    "ctaPrimary": "Browse the ranges",
+    "ctaSecondary": "Book a tasting",
+    "statExperience": "years of fermentation innovation",
+    "statChefs": "chefs and hotels supported",
+    "statSwiss": "Certified organic local production",
+    "highlightsTitle": "What we bring to your team",
+    "point1": "Service-ready ferments proven on the pass",
+    "point2": "R&D partnership to craft your signature",
+    "point3": "Training for kitchen and fermented beverage bar"
+  },
+  "about": {
+    "kicker": "Swiss know-how",
+    "title": "A workshop dedicated to professionals",
+    "body1": "Our Champagne (VD) lab builds ferments for service pace: controlled pH, validated shelf life and detailed tech sheets.",
+    "body2": "We favour short supply chains with Swiss organic growers and track each batch end-to-end.",
+    "value1": "Unpasteurised",
+    "value2": "Exclusive recipes",
+    "value3": "Microbiological analysis",
+    "value4": "Chilled logistics"
+  },
+  "advantages": {
+    "title": "Solutions for every service moment",
+    "subtitle": "Condiments, living drinks, crunchy sides and coaching.",
+    "card1": {
+      "title": "Condiments & umami bases",
+      "body": "Miso, plant-based garums and fermented sauces to power your reductions."
+    },
+    "card2": {
+      "title": "Probiotic beverages",
+      "body": "Kombucha, kefir and fermented sodas ready for pairing or mixology."
+    },
+    "card3": {
+      "title": "Tailored services",
+      "body": "Co-creation, seasonal subscriptions and HACCP support for your own ferments."
+    }
+  },
+  "case": {
+    "problem": "Challenge",
+    "solution": "Solution",
+    "results": "Results",
+    "carouselTitle": "Our ferments boost guest experiences across Switzerland",
+    "carouselSubtitle": "Explore every success story",
+    "carouselCta": "View case studies"
+  },
+  "products": {
+    "view": "View details",
+    "added": "Product added to selection",
+    "previewTitle": "Highlights from our catalogue",
+    "previewSubtitle": "Find the full range on the products page.",
+    "previewCta": "Explore products"
+  },
+  "product": {
+    "ingredients": "Key ingredients",
+    "process": "Fermentation process",
+    "packaging": "Available packagings",
+    "pairings": "Culinary pairings",
+    "addToCart": "Add to cart",
+    "requestQuote": "Request a quote"
+  },
+  "blog": {
+    "readMore": "Read article",
+    "previewTitle": "Guides and resources for your teams",
+    "previewBody": "HACCP checklists, pairing ideas and stories from venues transforming their offer.",
+    "previewCta": "Visit the blog"
+  },
+  "training": {
+    "register": "Register"
+  },
+  "footer": {
+    "tagline": "Craft fermentation 100% organic - Champagne, Switzerland.",
+    "contact": "Contact",
+    "resources": "Resources",
+    "blog": "Blog & Guides",
+    "catalogue": "Product catalogue",
+    "rss": "RSS feed"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Book a free tasting or schedule a call.",
+    "nameLabel": "Full name *",
+    "establishmentLabel": "Establishment",
+    "emailLabel": "Business email *",
+    "phoneLabel": "Phone",
+    "interestLabel": "I'm interested in",
+    "messageLabel": "Message",
+    "messageHelp": "Share your needs, timing or dietary notes.",
+    "interestHelp": "Your enquiry is routed automatically to the right team.",
+    "submit": "Send my request",
+    "calendar": "Schedule via Calendly",
+    "confirmation": "You'll receive an automatic confirmation email.",
+    "successTitle": "Thank you for your trust!",
+    "successBody": "We will get back to you within 24h to arrange the tasting or call.",
+    "directLine": "Need an immediate answer?",
+    "nameError": "Please provide your name.",
+    "emailError": "Please provide a valid email.",
+    "interest": {
+      "tasting": "Free tasting",
+      "subscription": "Subscription",
+      "cocreation": "Co-creation",
+      "training": "Training",
+      "quote": "Quote"
+    }
+  },
+  "callback": {
+    "label": "Request a call",
+    "title": "Schedule a callback",
+    "subtitle": "Our team gets back within one business hour.",
+    "name": "Name",
+    "phone": "Phone",
+    "time": "Preferred slot",
+    "submit": "Request callback",
+    "confirmation": "Thanks! We'll call you shortly.",
+    "nameError": "Please share your name.",
+    "phoneError": "We need a phone number to call you back."
+  }
+}

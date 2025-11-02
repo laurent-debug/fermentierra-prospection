@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "caseStudies": "Études de cas",
+    "blog": "Blog & Guides",
+    "training": "Formations",
+    "contact": "Contact"
+  },
+  "language": {
+    "current": "FR"
+  },
+  "hero": {
+    "badge": "Ferments vivants pour chefs exigeants",
+    "title": "Ferments suisses pour élever vos menus",
+    "subtitle": "Gammes lactofermentées, boissons kombucha et condiments signature prêts à intégrer dans vos cartes.",
+    "ctaPrimary": "Découvrir les gammes",
+    "ctaSecondary": "Organiser une dégustation",
+    "statExperience": "années d'innovation fermentaire",
+    "statChefs": "chefs et hôtels accompagnés",
+    "statSwiss": "Production locale certifiée bio",
+    "highlightsTitle": "Ce que nous apportons à votre brigade",
+    "point1": "Ferments prêts à l'emploi, testés en service",
+    "point2": "Accompagnement R&D pour créer votre signature",
+    "point3": "Formations brigades & bar à boissons fermentées"
+  },
+  "about": {
+    "kicker": "Savoir-faire suisse",
+    "title": "Un atelier dédié aux professionnels",
+    "body1": "Notre laboratoire de Champagne (VD) conçoit des ferments adaptés au rythme des services : pH maîtrisés, DLC validées et fiches techniques détaillées.",
+    "body2": "Nous privilégions les circuits courts avec maraîchers bio suisses et assurons la traçabilité lot par lot.",
+    "value1": "Sans pasteurisation",
+    "value2": "Recettes exclusives",
+    "value3": "Analyse microbiologique",
+    "value4": "Logistique réfrigérée"
+  },
+  "advantages": {
+    "title": "Des solutions pour chaque moment du service",
+    "subtitle": "Condiments, boissons vivantes, accompagnements croquants et coaching.",
+    "card1": {
+      "title": "Condiments & bases umami",
+      "body": "Misos, garums végétaux et sauces fermentées pour booster les sauces minutes."
+    },
+    "card2": {
+      "title": "Boissons probiotiques",
+      "body": "Kombucha, kéfir et sodas fermentés prêts pour le pairing ou le bar mixologie."
+    },
+    "card3": {
+      "title": "Services sur-mesure",
+      "body": "Co-création, abonnement saisonnier et support HACCP pour vos ferments maison."
+    }
+  },
+  "case": {
+    "problem": "Problème",
+    "solution": "Solution",
+    "results": "Résultats",
+    "carouselTitle": "Ils boostent leur expérience client avec nos ferments",
+    "carouselSubtitle": "Découvrez toutes nos réussites",
+    "carouselCta": "Voir les études de cas"
+  },
+  "products": {
+    "view": "Voir la fiche",
+    "added": "Produit ajouté à la sélection",
+    "previewTitle": "Sélection de nos produits phares",
+    "previewSubtitle": "Retrouvez l'ensemble du catalogue sur la page produits.",
+    "previewCta": "Explorer les produits"
+  },
+  "product": {
+    "ingredients": "Ingrédients clés",
+    "process": "Processus de fermentation",
+    "packaging": "Conditionnements disponibles",
+    "pairings": "Associations culinaires",
+    "addToCart": "Ajouter au panier",
+    "requestQuote": "Demander un devis"
+  },
+  "blog": {
+    "readMore": "Lire l'article",
+    "previewTitle": "Guides et ressources pour vos équipes",
+    "previewBody": "Trouvez des check-lists HACCP, des idées d'accords et des témoignages d'établissements qui transforment leur offre.",
+    "previewCta": "Accéder au blog"
+  },
+  "training": {
+    "register": "Je m'inscris"
+  },
+  "footer": {
+    "tagline": "Lactofermentation artisanale 100% bio - Champagne, Suisse.",
+    "contact": "Contact",
+    "resources": "Ressources",
+    "blog": "Blog & Guides",
+    "catalogue": "Catalogue produits",
+    "rss": "Flux RSS"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Organisez une dégustation gratuite ou planifiez un appel.",
+    "nameLabel": "Nom complet *",
+    "establishmentLabel": "Établissement",
+    "emailLabel": "Email professionnel *",
+    "phoneLabel": "Téléphone",
+    "interestLabel": "Je suis intéressé par",
+    "messageLabel": "Message",
+    "messageHelp": "Partagez vos besoins, horaires ou restrictions alimentaires.",
+    "interestHelp": "Votre message sera automatiquement dirigé vers l'équipe concernée.",
+    "submit": "Envoyer ma demande",
+    "calendar": "Planifier via Calendly",
+    "confirmation": "Un email de confirmation automatique vous sera envoyé.",
+    "successTitle": "Merci pour votre confiance !",
+    "successBody": "Nous reviendrons vers vous sous 24h pour organiser la dégustation ou l'appel.",
+    "directLine": "Besoin d'une réponse immédiate ?",
+    "nameError": "Merci d'indiquer votre nom.",
+    "emailError": "Indiquez un email valide.",
+    "interest": {
+      "tasting": "Dégustation gratuite",
+      "subscription": "Abonnement",
+      "cocreation": "Co-création",
+      "training": "Formation",
+      "quote": "Devis"
+    }
+  },
+  "callback": {
+    "label": "Être rappelé",
+    "title": "Planifier un rappel",
+    "subtitle": "Nos équipes vous contactent dans l'heure ouvrée.",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "time": "Créneau souhaité",
+    "submit": "Demander un rappel",
+    "confirmation": "Merci ! Nous vous appelons très vite.",
+    "nameError": "Indiquez votre nom.",
+    "phoneError": "Numéro requis pour vous rappeler."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "studies": [
+    {
+      "id": "gastronoir",
+      "client": "Restaurant GastronOir - Lausanne",
+      "problem": "Carte d'hiver manquant de fraîcheur et de couleurs pour accompagner une cuisine en sauce.",
+      "solution": "Création de pickles arc-en-ciel micro-dosés et atelier de pairing avec la brigade.",
+      "results": "+18% de vente sur les entrées signatures et réduction de 20% du gaspillage de légumes.",
+      "testimonial": "Les pickles Fermentierra apportent l'étincelle acide que nous cherchions sans perdre notre identité.",
+      "author": "Chef Élodie Meyer",
+      "image": "https://via.placeholder.com/400x300?text=Gastronoir"
+    },
+    {
+      "id": "alpino",
+      "client": "Hôtel Alpino - Davos",
+      "problem": "Bar à boissons sans alcool peu attractif pour une clientèle internationale.",
+      "solution": "Mise en place d'un programme Kombucha de montagne avec service pression et storytelling terroir.",
+      "results": "Taux de satisfaction clients à 4,8/5 et marge additionnelle de 12 CHF par menu dégustation.",
+      "testimonial": "Nos sommeliers parlent désormais kombucha comme un grand cru. L'accueil a été incroyable.",
+      "author": "Responsable F&B, Luca Bernasconi",
+      "image": "https://via.placeholder.com/400x300?text=Hotel+Alpino"
+    },
+    {
+      "id": "cantine",
+      "client": "Cantine végétale - Genève",
+      "problem": "Besoin de protéines végétales goûtues pour fidéliser une clientèle flexitarienne exigeante.",
+      "solution": "Développement d'un miso d'orge fumé pour sauces et marinades signature.",
+      "results": "Augmentation de 25% des ventes du plat phare et avis Google passés de 4,3 à 4,7.",
+      "testimonial": "Le miso sur-mesure a transformé notre cuisine du quotidien en expérience gastro.",
+      "author": "Cheffe Lila Cohen",
+      "image": "https://via.placeholder.com/400x300?text=Cantine+Vegetale"
+    }
+  ]
+}
