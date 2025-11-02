@@ -1,0 +1,194 @@
+/*
+ * Fermentierra global styles
+ * Palette : beige #f5f0e6, vert #2f6f4e, vert clair #a3c9a8
+ */
+:root {
+  --fermentierra-beige: #f5f0e6;
+  --fermentierra-green: #2f6f4e;
+  --fermentierra-light-green: #a3c9a8;
+  --fermentierra-dark: #1b2b2d;
+  --fermentierra-gradient: linear-gradient(135deg, rgba(47, 111, 78, 0.9), rgba(163, 201, 168, 0.85));
+  font-size: 16px;
+}
+
+body {
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  background-color: var(--fermentierra-beige);
+  color: var(--fermentierra-dark);
+}
+
+main {
+  min-height: 60vh;
+}
+
+.hero-section {
+  background: var(--fermentierra-gradient), url("https://via.placeholder.com/1600x900?text=Fermentation+Artisanale") center/cover;
+  color: #fff;
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.hero-badge {
+  background: rgba(245, 240, 230, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-stat {
+  background-color: rgba(245, 240, 230, 0.2);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  min-width: 160px;
+}
+
+.hero-stat strong {
+  display: block;
+  font-size: 1.75rem;
+}
+
+.section-heading span {
+  color: var(--fermentierra-green);
+}
+
+.card-highlight {
+  background-color: #fff;
+  border-radius: 1.25rem;
+  padding: 2rem;
+  box-shadow: 0 15px 40px rgba(47, 111, 78, 0.08);
+}
+
+.badge-soft {
+  background-color: rgba(47, 111, 78, 0.1);
+  color: var(--fermentierra-green);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.product-card:hover,
+.product-card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(47, 111, 78, 0.18);
+}
+
+.case-study-card img,
+.blog-card img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.blog-card {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.timeline {
+  border-left: 2px solid var(--fermentierra-light-green);
+  padding-left: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.timeline-step {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.timeline-step::before {
+  content: "";
+  position: absolute;
+  left: -1.6rem;
+  top: 0.2rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 999px;
+  background-color: var(--fermentierra-green);
+}
+
+.btn-success {
+  background-color: var(--fermentierra-green);
+  border-color: var(--fermentierra-green);
+}
+
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #275d43;
+  border-color: #275d43;
+}
+
+.floating-callback {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 1050;
+}
+
+.floating-callback button {
+  background-color: var(--fermentierra-green);
+  border: none;
+  border-radius: 999px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 18px 30px rgba(47, 111, 78, 0.25);
+}
+
+.floating-callback button:focus-visible {
+  outline: 3px solid rgba(163, 201, 168, 0.65);
+  outline-offset: 3px;
+}
+
+.callback-form {
+  position: fixed;
+  bottom: 7rem;
+  right: 1.5rem;
+  width: min(320px, calc(100% - 3rem));
+  z-index: 1050;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+[data-i18n] {
+  transition: opacity 0.2s ease;
+}
+
+@media (max-width: 767px) {
+  .hero-stat {
+    min-width: 130px;
+  }
+  .hero-stats {
+    gap: 1rem;
+  }
+}

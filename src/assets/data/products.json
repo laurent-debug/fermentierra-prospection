@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "kimchi-alpin",
+      "name": "Kimchi alpin",
+      "range": "Signature",
+      "usage": "Assaisonnement",
+      "description": "Kimchi élaboré avec des légumes suisses, relevé d'algues du Léman et d'ail noir fermenté.",
+      "ingredients": ["Chou de Pays", "Carotte de montagne", "Algue du Léman", "Gochujang maison"],
+      "process": "Fermentation mixte de 12 jours en jarres de grès, affinement à 4°C pour stabiliser les arômes.",
+      "packaging": "Bocaux 1kg, 3kg gastronomique, poches sous vide 500g.",
+      "pairings": "Excellent sur bao de porc, burger végétal ou tartare de truite.",
+      "image": "https://via.placeholder.com/600x400?text=Kimchi+Alpin"
+    },
+    {
+      "id": "kombucha-montagne",
+      "name": "Kombucha de montagne",
+      "range": "Boissons vivantes",
+      "usage": "Boisson / pairing",
+      "description": "Kombucha brut infusé aux herbes alpines et affinage en barrique de chêne suisse.",
+      "ingredients": ["Thé vert bio", "Scoby maison", "Mélisse citronnelle", "Miel de sapin"],
+      "process": "Double fermentation : 10 jours en inox puis 14 jours en barrique.",
+      "packaging": "Bouteilles 33cl, 75cl, fûts 10L pour tirage pression.",
+      "pairings": "Service à l'accord mets-boissons, cocktails low ABV, alternatives au vin.",
+      "image": "https://via.placeholder.com/600x400?text=Kombucha+Montagne"
+    },
+    {
+      "id": "miso-orge",
+      "name": "Miso d'orge torréfié",
+      "range": "Condiments",
+      "usage": "Sauce / marinade",
+      "description": "Miso longue fermentation réalisé avec de l'orge suisse maltée et du koji maison.",
+      "ingredients": ["Orge maltée", "Koji de riz", "Sel de Bex", "Eau de source"],
+      "process": "Maturation minimum 9 mois en fût, suivi par dégustation mensuelle.",
+      "packaging": "Pots 500g, seaux 5kg, poches 2kg pour cuisine collective.",
+      "pairings": "Glaces salées, sauces brunes, légumes rôtis, jus de viande.",
+      "image": "https://via.placeholder.com/600x400?text=Miso+d'Orge"
+    },
+    {
+      "id": "pickles-arcade",
+      "name": "Pickles Arc-en-ciel",
+      "range": "Collection saisonnière",
+      "usage": "Garniture",
+      "description": "Trilogie de légumes oubliés lacto-fermentés en couleur pour garnitures et tapas.",
+      "ingredients": ["Betterave chioggia", "Chou-rave", "Radis pastèque", "Sel fumé"],
+      "process": "Fermentation lactique 5 jours, stabilisation en cave fraîche pour préserver le croquant.",
+      "packaging": "Bocaux 2kg, 4kg, assortiments découverte 1kg.",
+      "pairings": "Plats végétariens, poke bowls, plateaux de charcuterie artisanale.",
+      "image": "https://via.placeholder.com/600x400?text=Pickles+Arc-en-ciel"
+    },
+    {
+      "id": "kefir-verveine",
+      "name": "Kéfir Verveine & Raisinets",
+      "range": "Boissons vivantes",
+      "usage": "Boisson",
+      "description": "Kéfir pétillant aux grains maison, infusé de verveine citron et de raisinets du Valais.",
+      "ingredients": ["Grains de kéfir", "Verveine citron", "Raisinets", "Sucre de betterave bio"],
+      "process": "Fermentation 48h en verrerie, double fermentation en bouteille pour légère effervescence.",
+      "packaging": "Bouteilles 25cl, 75cl, bag-in-box 5L.",
+      "pairings": "Bar à cocktails, brunchs, accords desserts fruités.",
+      "image": "https://via.placeholder.com/600x400?text=Kefir+Verveine"
+    }
+  ]
+}

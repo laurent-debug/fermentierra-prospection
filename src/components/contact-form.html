@@ -1,0 +1,68 @@
+<!-- Reusable contact form component -->
+<section class="py-5 bg-light" id="contact" data-component="contact-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold" data-i18n="contact.title">Contactez-nous</h2>
+          <p class="lead" data-i18n="contact.subtitle">Organisez une dégustation gratuite ou planifiez un appel.</p>
+        </div>
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4 p-lg-5">
+            <form class="needs-validation contact-form" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="contactName" data-i18n="contact.nameLabel">Nom complet *</label>
+                  <input id="contactName" name="name" class="form-control" type="text" autocomplete="name" required aria-required="true">
+                  <div class="invalid-feedback" data-i18n="contact.nameError">Merci d'indiquer votre nom.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="contactEstablishment" data-i18n="contact.establishmentLabel">Établissement</label>
+                  <input id="contactEstablishment" name="establishment" class="form-control" type="text" autocomplete="organization">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="contactEmail" data-i18n="contact.emailLabel">Email professionnel *</label>
+                  <input id="contactEmail" name="email" class="form-control" type="email" autocomplete="email" required aria-required="true">
+                  <div class="invalid-feedback" data-i18n="contact.emailError">Indiquez un email valide.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="contactPhone" data-i18n="contact.phoneLabel">Téléphone</label>
+                  <input id="contactPhone" name="phone" class="form-control" type="tel" autocomplete="tel">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="contactInterest" data-i18n="contact.interestLabel">Je suis intéressé par</label>
+                  <select id="contactInterest" name="interest" class="form-select" aria-describedby="interestHelp">
+                    <option value="tasting" data-i18n="contact.interest.tasting">Dégustation gratuite</option>
+                    <option value="subscription" data-i18n="contact.interest.subscription">Abonnement</option>
+                    <option value="cocreation" data-i18n="contact.interest.cocreation">Co-création</option>
+                    <option value="training" data-i18n="contact.interest.training">Formation</option>
+                    <option value="quote" data-i18n="contact.interest.quote">Devis</option>
+                  </select>
+                  <div id="interestHelp" class="form-text" data-i18n="contact.interestHelp">Votre message sera automatiquement dirigé vers l'équipe concernée.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="contactMessage" data-i18n="contact.messageLabel">Message</label>
+                  <textarea id="contactMessage" name="message" class="form-control" rows="4" aria-describedby="messageHelp"></textarea>
+                  <div id="messageHelp" class="form-text" data-i18n="contact.messageHelp">Partagez vos besoins, horaires ou restrictions alimentaires.</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between mt-4 gap-3">
+                <button class="btn btn-success btn-lg px-4" type="submit" data-i18n="contact.submit">Envoyer ma demande</button>
+                <a class="btn btn-outline-success" href="https://calendly.com" target="_blank" rel="noopener" data-i18n="contact.calendar">Planifier via Calendly</a>
+              </div>
+              <p class="text-muted small mt-3" data-i18n="contact.confirmation">Un email de confirmation automatique vous sera envoyé.</p>
+            </form>
+            <div class="alert alert-success d-none mt-4" role="status" data-success-message>
+              <h3 class="h5" data-i18n="contact.successTitle">Merci pour votre confiance !</h3>
+              <p class="mb-0" data-i18n="contact.successBody">Nous reviendrons vers vous sous 24h pour organiser la dégustation ou l'appel.</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 text-center">
+          <p class="mb-1" data-i18n="contact.directLine">Besoin d'une réponse immédiate ?</p>
+          <a class="btn btn-link" href="tel:+41245520234">+41 24 552 02 34</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

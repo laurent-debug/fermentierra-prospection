@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "caseStudies": "Fallstudien",
+    "blog": "Blog & Guides",
+    "training": "Schulungen",
+    "contact": "Kontakt"
+  },
+  "language": {
+    "current": "DE"
+  },
+  "hero": {
+    "badge": "Lebendige Fermente für anspruchsvolle Küchen",
+    "title": "Schweizer Fermente, die Ihre Menüs veredeln",
+    "subtitle": "Lactofermentierte Sortimente, Kombucha-Getränke und Signature-Condiments bereit für den Einsatz.",
+    "ctaPrimary": "Sortimente entdecken",
+    "ctaSecondary": "Degustation planen",
+    "statExperience": "Jahre Fermentationsinnovation",
+    "statChefs": "begleitete Küchen und Hotels",
+    "statSwiss": "Lokale Bio-Produktion",
+    "highlightsTitle": "Was wir Ihrem Team bringen",
+    "point1": "Servicefertige Fermente, im Alltag getestet",
+    "point2": "R&D-Begleitung für Ihr Signature-Produkt",
+    "point3": "Trainings für Küche & fermentierte Drinks"
+  },
+  "about": {
+    "kicker": "Schweizer Handwerk",
+    "title": "Ein Atelier für Profis",
+    "body1": "Unser Labor in Champagne (VD) entwickelt Fermente im Service-Takt: kontrollierter pH, geprüfte Haltbarkeit, detaillierte Datenblätter.",
+    "body2": "Wir arbeiten mit Schweizer Bio-Produzenten und garantieren lückenlose Rückverfolgbarkeit.",
+    "value1": "Unpasteurisiert",
+    "value2": "Exklusive Rezepte",
+    "value3": "Mikrobiologische Analysen",
+    "value4": "Gekühlte Logistik"
+  },
+  "advantages": {
+    "title": "Lösungen für jeden Service-Moment",
+    "subtitle": "Condiments, lebendige Getränke, crunchy Beilagen und Coaching.",
+    "card1": {
+      "title": "Condiments & Umami-Basen",
+      "body": "Misos, pflanzliche Garums und fermentierte Saucen für mehr Tiefe."
+    },
+    "card2": {
+      "title": "Probiotische Getränke",
+      "body": "Kombucha, Kefir und fermentierte Sodas für Pairings oder Bar."
+    },
+    "card3": {
+      "title": "Massgeschneiderte Services",
+      "body": "Co-Creation, saisonale Abos und HACCP-Support für Ihre eigenen Fermente."
+    }
+  },
+  "case": {
+    "problem": "Herausforderung",
+    "solution": "Lösung",
+    "results": "Resultate",
+    "carouselTitle": "Unsere Fermente begeistern Gäste in der ganzen Schweiz",
+    "carouselSubtitle": "Alle Erfolgsgeschichten entdecken",
+    "carouselCta": "Zu den Fallstudien"
+  },
+  "products": {
+    "view": "Produkt ansehen",
+    "added": "Produkt zur Auswahl hinzugefügt",
+    "previewTitle": "Unsere beliebtesten Produkte",
+    "previewSubtitle": "Das komplette Sortiment finden Sie auf der Produktseite.",
+    "previewCta": "Produkte entdecken"
+  },
+  "product": {
+    "ingredients": "Hauptzutaten",
+    "process": "Fermentationsprozess",
+    "packaging": "Verfügbare Verpackungen",
+    "pairings": "Kulinarische Pairings",
+    "addToCart": "In den Warenkorb",
+    "requestQuote": "Offerte anfragen"
+  },
+  "blog": {
+    "readMore": "Artikel lesen",
+    "previewTitle": "Guides und Ressourcen für Ihr Team",
+    "previewBody": "Checklisten, Pairing-Ideen und Stimmen von Betrieben, die ihr Angebot transformieren.",
+    "previewCta": "Zum Blog"
+  },
+  "training": {
+    "register": "Jetzt anmelden"
+  },
+  "footer": {
+    "tagline": "Handwerkliche Fermentation 100 % bio - Champagne, Schweiz.",
+    "contact": "Kontakt",
+    "resources": "Ressourcen",
+    "blog": "Blog & Guides",
+    "catalogue": "Produktkatalog",
+    "rss": "RSS-Feed"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Planen Sie eine kostenlose Degustation oder einen Anruf.",
+    "nameLabel": "Vollständiger Name *",
+    "establishmentLabel": "Betrieb",
+    "emailLabel": "Geschäftliche E-Mail *",
+    "phoneLabel": "Telefon",
+    "interestLabel": "Ich interessiere mich für",
+    "messageLabel": "Nachricht",
+    "messageHelp": "Teilen Sie Bedürfnisse, Zeiten oder Ernährungshinweise.",
+    "interestHelp": "Ihre Anfrage wird automatisch an das richtige Team weitergeleitet.",
+    "submit": "Anfrage senden",
+    "calendar": "Über Calendly planen",
+    "confirmation": "Sie erhalten eine automatische Bestätigung.",
+    "successTitle": "Vielen Dank für Ihr Vertrauen!",
+    "successBody": "Wir melden uns innerhalb von 24 Stunden für Degustation oder Call.",
+    "directLine": "Brauchen Sie sofort eine Antwort?",
+    "nameError": "Bitte geben Sie Ihren Namen an.",
+    "emailError": "Bitte geben Sie eine gültige E-Mail an.",
+    "interest": {
+      "tasting": "Kostenlose Degustation",
+      "subscription": "Abonnement",
+      "cocreation": "Co-Creation",
+      "training": "Schulung",
+      "quote": "Offerte"
+    }
+  },
+  "callback": {
+    "label": "Rückruf",
+    "title": "Rückruf planen",
+    "subtitle": "Wir melden uns innerhalb einer Geschäfts-Stunde.",
+    "name": "Name",
+    "phone": "Telefon",
+    "time": "Wunschtermin",
+    "submit": "Rückruf anfordern",
+    "confirmation": "Danke! Wir rufen Sie bald an.",
+    "nameError": "Bitte geben Sie Ihren Namen an.",
+    "phoneError": "Telefonnummer für den Rückruf erforderlich."
+  }
+}

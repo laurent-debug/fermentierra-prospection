@@ -1,0 +1,28 @@
+{
+  "sessions": [
+    {
+      "id": "atelier-fermentation",
+      "title": "Atelier fermentation pour brigades gastronomiques",
+      "date": "21 mars 2025 - Lausanne",
+      "format": "Présentiel",
+      "description": "Demi-journée immersive dans notre laboratoire mobile avec focus sur la sécurité alimentaire.",
+      "registration": "https://eventbrite.com/"
+    },
+    {
+      "id": "webinaire-menu-fermente",
+      "title": "Webinaire - Construire un menu fermenté rentable",
+      "date": "4 avril 2025 - En ligne",
+      "format": "Webinaire",
+      "description": "Outils financiers et fiches techniques pour intégrer les ferments dans les menus du midi.",
+      "registration": "https://eventbrite.com/"
+    },
+    {
+      "id": "formation-kombucha",
+      "title": "Formation barista kombucha & kéfir",
+      "date": "23 avril 2025 - Genève",
+      "format": "Présentiel",
+      "description": "Techniques de tirage, carbonatation et accords pour créer un bar à boissons fermentées.",
+      "registration": "https://eventbrite.com/"
+    }
+  ]
+}

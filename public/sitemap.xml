@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://fermentierra.example.com/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://fermentierra.example.com/products.html</loc>
+  </url>
+  <url>
+    <loc>https://fermentierra.example.com/product.html</loc>
+  </url>
+  <url>
+    <loc>https://fermentierra.example.com/casestudies.html</loc>
+  </url>
+  <url>
+    <loc>https://fermentierra.example.com/blog.html</loc>
+  </url>
+  <url>
+    <loc>https://fermentierra.example.com/training.html</loc>
+  </url>
+  <url>
+    <loc>https://fermentierra.example.com/rss.xml</loc>
+  </url>
+</urlset>

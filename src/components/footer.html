@@ -1,0 +1,45 @@
+<!-- Footer component reused across pages -->
+<footer class="bg-dark text-light pt-5 pb-4 mt-5" data-component="site-footer">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-md-4">
+        <div class="d-flex align-items-center mb-3">
+          <span class="fs-1 me-2" role="img" aria-hidden="true">🌿</span>
+          <span class="h5 mb-0">Fermentierra</span>
+        </div>
+        <p class="small" data-i18n="footer.tagline">Lactofermentation artisanale 100% bio - Champagne, Suisse.</p>
+        <p class="small mb-0">© <span id="currentYear"></span> Fermentierra.</p>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-uppercase" data-i18n="footer.contact">Contact</h6>
+        <ul class="list-unstyled small">
+          <li><a class="link-light text-decoration-none" href="tel:+41245520234">+41 24 552 02 34</a></li>
+          <li><a class="link-light text-decoration-none" href="mailto:bonjour@fermentierra.com">bonjour@fermentierra.com</a></li>
+          <li><a class="link-light text-decoration-none" href="https://calendly.com" target="_blank" rel="noopener">Planifier une dégustation</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-uppercase" data-i18n="footer.resources">Ressources</h6>
+        <ul class="list-unstyled small">
+          <li><a class="link-light text-decoration-none" href="blog.html" data-i18n="footer.blog">Blog &amp; Guides</a></li>
+          <li><a class="link-light text-decoration-none" href="products.html" data-i18n="footer.catalogue">Catalogue produits</a></li>
+          <li><a class="link-light text-decoration-none" href="rss.xml" data-i18n="footer.rss">Flux RSS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Crisp chat widget placeholder -->
+<script>
+  // Crisp widget integration - replace the placeholder ID with the production one.
+  window.$crisp = window.$crisp || [];
+  window.CRISP_WEBSITE_ID = window.CRISP_WEBSITE_ID || "YOUR_CRISP_WEBSITE_ID";
+  (function () {
+    const d = document;
+    const s = d.createElement("script");
+    s.src = "https://client.crisp.chat/l.js";
+    s.async = true;
+    s.setAttribute("data-testid", "crisp-widget");
+    d.head.appendChild(s);
+  })();
+</script>

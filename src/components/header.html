@@ -1,0 +1,47 @@
+<!-- Header component reused across pages -->
+<header data-component="site-header" class="sticky-top shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Navigation principale">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Fermentierra accueil">
+        <span class="fs-2 me-2" role="img" aria-hidden="true">🌿</span>
+        <span class="fw-semibold text-success">Fermentierra</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Basculer la navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="primaryNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="nav.home" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="nav.products" href="products.html">Produits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="nav.caseStudies" href="casestudies.html">Études de cas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="nav.blog" href="blog.html">Blog &amp; Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="nav.training" href="training.html">Formations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-success text-white px-3 ms-lg-3" data-i18n="nav.contact" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown ms-lg-3" aria-label="Sélecteur de langue">
+            <button class="btn btn-outline-success dropdown-toggle" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="me-1" data-i18n="language.current">FR</span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+              <li><button class="dropdown-item" data-language="fr">Français</button></li>
+              <li><button class="dropdown-item" data-language="de">Deutsch</button></li>
+              <li><button class="dropdown-item" data-language="it">Italiano</button></li>
+              <li><button class="dropdown-item" data-language="en">English</button></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
