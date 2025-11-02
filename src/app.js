@@ -4,23 +4,28 @@ const sections = document.querySelectorAll('.section, .hero');
 
 navLinks.forEach(link => {
   link.addEventListener('click', (e) => {
-    e.preventDefault();
     const targetId = link.getAttribute('href');
+
+    if (!targetId || !targetId.startsWith('#')) {
+      return;
+    }
+
+    e.preventDefault();
     const targetSection = document.querySelector(targetId);
-    
+
     if (targetSection) {
       const navHeight = document.querySelector('.navbar').offsetHeight;
       const targetPosition = targetSection.offsetTop - navHeight;
-      
+
       window.scrollTo({
         top: targetPosition,
         behavior: 'smooth'
       });
-      
+
       // Update active link
       navLinks.forEach(l => l.classList.remove('active'));
       link.classList.add('active');
-      
+
       // Close mobile menu if open
       const navMenu = document.getElementById('navMenu');
       navMenu.classList.remove('active');
@@ -96,33 +101,35 @@ animateElements.forEach(el => {
 const contactForm = document.getElementById('contactForm');
 const formSuccess = document.getElementById('formSuccess');
 
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  
-  // Get form values
-  const formData = {
-    name: document.getElementById('name').value,
-    establishment: document.getElementById('establishment').value,
-    email: document.getElementById('email').value,
-    phone: document.getElementById('phone').value,
-    interest: document.getElementById('interest').value,
-    message: document.getElementById('message').value
-  };
-  
-  // Log form data (in a real application, this would send to a server)
-  console.log('Form submitted:', formData);
-  
-  // Show success message
-  contactForm.style.display = 'none';
-  formSuccess.classList.add('show');
-  
-  // Reset form after 5 seconds
-  setTimeout(() => {
-    contactForm.style.display = 'block';
-    formSuccess.classList.remove('show');
-    contactForm.reset();
-  }, 5000);
-});
+if (contactForm && formSuccess) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    // Get form values
+    const formData = {
+      name: document.getElementById('name').value,
+      establishment: document.getElementById('establishment').value,
+      email: document.getElementById('email').value,
+      phone: document.getElementById('phone').value,
+      interest: document.getElementById('interest').value,
+      message: document.getElementById('message').value
+    };
+
+    // Log form data (in a real application, this would send to a server)
+    console.log('Form submitted:', formData);
+
+    // Show success message
+    contactForm.style.display = 'none';
+    formSuccess.classList.add('show');
+
+    // Reset form after 5 seconds
+    setTimeout(() => {
+      contactForm.style.display = 'block';
+      formSuccess.classList.remove('show');
+      contactForm.reset();
+    }, 5000);
+  });
+}
 
 // Add hover effects to product cards
 const productCards = document.querySelectorAll('.product-card');
@@ -130,9 +137,17 @@ productCards.forEach(card => {
   card.addEventListener('mouseenter', () => {
     card.style.transform = 'translateY(-8px) scale(1.02)';
   });
-  
+
   card.addEventListener('mouseleave', () => {
     card.style.transform = 'translateY(0) scale(1)';
+  });
+
+  card.addEventListener('click', () => {
+    const target = card.dataset.target || card.getAttribute('href');
+
+    if (target && card.tagName.toLowerCase() !== 'a') {
+      window.location.href = target;
+    }
   });
 });
 
